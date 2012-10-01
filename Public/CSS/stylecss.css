@@ -2,7 +2,7 @@ body{
 	background-color: #CCCCCC;
 }
 
-div#formation {
+#formation {
 	background-color: #FF3333;
 	color: white;
 	text-align: justify;
@@ -11,7 +11,7 @@ div#formation {
 	padding-top: 0,75px;
 }
 
-div#experiences {
+#experiences {
 	background-color: #FF3333;
 	color: white;
 	text-align: justify;
@@ -50,6 +50,9 @@ h2{
 }
 
 #contact {
-	text-align: right;
-	margin-left: 20px;
+	text-align: left;
+	width: 300px;
+	height: 194px;
+	margin-left: 250px;
+	border-style: dotted;
 }
