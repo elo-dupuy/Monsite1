@@ -1,19 +1,19 @@
 body{
-	background-color: #FAFAD2;
+	background-image: url(http://idata.over-blog.com/2/18/00/83/SP_Promise_Paper_Sunshine.jpg);
 }
 
 #formation {
-	background-color: #FF3333;
-	color: white;
+	border-style: dotted;
+	border-color: red;
 	text-align: justify;
 	width: 820px;
-	height: 160px;
+	height: 180px;
 	padding-top: 0,95px;
 }
 
 #experiences {
-	background-color: #FF3333;
-	color: white;
+    border-style: dotted;
+    border-color: red;
 	text-align: justify;
 	width: 820px;
 	height: 430px;
@@ -23,6 +23,18 @@ body{
 #competences {
 	text-align: justify;
 	width: 820px;
+	margin-left: 250px;
+	border-left-style: dotted;
+	border-left-width: 5px;
+	border-left-height: 100px;
+}
+
+#centres {
+	text-align: justify;
+	width: 820px;
+	margin-left: 250px;
+	border-left-style: dotted;
+	border-width: 5px;
 }
 
 p{
@@ -41,6 +53,7 @@ h2{
 	font-family: "Century Gothic";
 	font-size: 20px;
 	margin-left: 10px;
+	text-shadow: 0px 2px 0px #A9A9A9 ;
 }
 
 .roundedcorner {
@@ -60,7 +73,10 @@ h2{
 	height: 194px;
 	margin-left: 250px;
 	margin-top: 10px;
-	border-style: dotted;
+	background-image: url(http://upload.wikimedia.org/wikipedia/commons/e/e5/Post-it-note-transparent.png);
+	background-size: 310px 230px; 
+	background-repeat: no-repeat;
+	background-position: -5px -25px;
 }
 
 .mission {
@@ -72,4 +88,14 @@ h2{
 	width: 80px;
 	height: 80px;
 	margin-left: 30px;
+}
+
+#viadeo {
+	width: 80px;
+	height: 80px;
+}
+
+#facebook {
+	width: 80px;
+	height: 80px;
 }
