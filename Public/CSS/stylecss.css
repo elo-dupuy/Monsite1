@@ -46,7 +46,7 @@ p{
 h1{
 	font-size: 25px;
 	font-family: "Century Gothic";
-	text-align: center;
+	text-align: left;
 }
 
 h2{
@@ -99,3 +99,86 @@ h2{
 	width: 80px;
 	height: 80px;
 }
+
+ul#navigation {
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    top: 0px;
+    right: 10px;
+    list-style: none;
+    z-index:999999;
+    width:721px;
+}
+
+ul#navigation li {
+    width: 103px;
+    display:inline;
+    float:left;
+}
+
+ul#navigation li {
+    display: block;
+    float: left;
+    margin-top: -2px;
+    width: 100px;
+    height: 25px;
+    background-color: #D2B48C;
+    background-repeat: no-repeat;
+    background-position: 50% 10px;
+    border: 1px solid #BDDCEF;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 80px;
+}
+
+ul#navigation li {
+    display: block;
+    float:left;
+    margin-top: -2px;
+    width: 100px;
+    height: 25px;
+    background-color:#DEB887;
+    background-repeat:no-repeat;
+    background-position:50% 10px;
+    border:1px solid #BDDCEF;
+    text-decoration:none;
+    text-align:center;
+    padding-top:80px;
+    -moz-border-radius:0px 0px 10px 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -khtml-border-bottom-right-radius: 10px;
+    -khtml-border-bottom-left-radius: 10px;
+    opacity: 0.7;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=70);
+}
+
+ul#navigation .Accueil a{
+    background-image: url(../images/home.png);
+}
+ul#navigation .Articles a      {
+    background-image: url(../images/id_card.png);
+}
+ul#navigation .Recommandations a      {
+    background-image: url(../images/search.png);
+}
+ul#navigation .Projets a      {
+    background-image: url(../images/ipod.png);
+}
+ul#navigation .Contacter a   {
+    background-image: url(../images/rss.png);
+}
+
+
+ul#navigation li :hover{
+     background-color:#D2B48C;
+}
+
+ul#navigation li span{
+    letter-spacing:2px;
+    font-size:11px;
+    color:#60ACD8;
+    text-shadow: 0 -1px 1px #fff;
+}
+

@@ -1,18 +1,26 @@
-function check_name(name){
-if( name == "gabriel"){
-return "Win";
-}else if( name == "clement"){
-return "we find clement";
-}else{
-var res = "Truth" +name+ "is different from gabriel and clement";
-return res;
-}
-}
-
 $ (document).ready(function(){
-	alert(check_name ("gabriel"));
-});
+	
+    var d=300;
+    $('#navigation a').each(function(){
+        $(this).stop().animate({
+            'marginTop':'-80px'
+        },d+=150);
+    });
+ 
+    $('#navigation > li').hover(
+    function () {
+        $($(this)).stop().animate({
+            'marginTop':'-2px'
+        },200);
+    },
+    function () {
+        $($(this)).stop().animate({
+            'marginTop':'-80px'
+        },200);
+    });
 
-$(function() {
-  $('#texteJQ').html('Win');
+
+    $(".Contacter").click(function(){
+    	$("#contenu").remove();
+    });
 });
