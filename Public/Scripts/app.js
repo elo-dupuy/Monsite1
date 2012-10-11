@@ -12,3 +12,7 @@ return res;
 $ (document).ready(function(){
 	alert(check_name ("gabriel"));
 });
+
+$(function() {
+  $('#texteJQ').html('Win');
+});
